@@ -30,8 +30,8 @@ const Navbar = () => {
     return (
       <Nav>
         <RightLinks>
-          <NavLinks to='/parietal'>Parietal Lobe</NavLinks>
           <NavLinks to='/frontal'>Frontal Lobe</NavLinks>
+          <NavLinks to='/parietal'>Parietal Lobe</NavLinks>
           <NavLinks to='/temporal'>Temporal Lobe</NavLinks>
           <NavLinks to='/occipital'>Occipital Lobe</NavLinks>
           <NavLinks

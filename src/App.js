@@ -3,7 +3,7 @@ import { Route, Routes } from "react-router-dom";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import Parietal from "./pages/ParietalLobe";
-import Frontal from "./pages/Store";
+import Frontal from "./pages/FrontalLobe";
 import Temporal from "./pages/Temporal";
 import Occipital from "./pages/Occipital";
 

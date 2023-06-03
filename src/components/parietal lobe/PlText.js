@@ -27,7 +27,7 @@ const PL_text = () => {
         <Container>
           <StyledImg src={map} />
         </Container>
-        <h3>Clinincal Condition</h3>
+        <h3>Clinincal Relevance</h3>
         <p>
         The proximity of two different body parts in the somatosensory cortex can help explain odd cases where patients ascribe sensory information to the wrong body part or experience phantom touches. 
         </p>
@@ -35,7 +35,7 @@ const PL_text = () => {
         <p class="text">
         The posterior parietal lobe is particularly important in spatial sensory information and paying attention to your surroundings. The posterior parietal lobe is found to play a hand in the division of attention between spatial locations, features, objects, etc. 
         </p>
-        <h3>Clinical Condition</h3>
+        <h3>Clinical Relevance</h3>
         <p>
         A common condition caused by damage in the posterior parietal lobe is hemispatial neglect. Hemispatial neglect is when a patient is only able to visualize half their world. This condition is strongly correlated to damage in the right parietal lobe. Here’s an example of a clock drawn by a patient with hemispatial neglect. 
         </p>
