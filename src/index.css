@@ -11,3 +11,29 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.note {
+  background-color: #A8E4A0;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  padding: 1rem;
+  margin-left: 10px;
+
+}
+
+.save {
+  background-color: #e1e1e1;
+  border: none; 
+  border-radius: 5px;
+  padding: 5px 10px 5px 10px;
+}
+
+.save:hover {
+  background-color: #ededed;
+  cursor: pointer;
+}
+
+textarea:focus {
+  outline: none;
+}
+
