@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom'
 
 const Nav = styled.nav`
     display: flex;
-    justify-content: space-between; 
+    justify-content: right; 
     height: 60px;
     font-size: 14px;
 `;

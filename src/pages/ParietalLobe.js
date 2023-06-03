@@ -33,7 +33,7 @@ const Parietal = () => {
     <Container1>
     <Notes>
           <Stylabel>
-            These notes stay with you on all pages!
+            These notes stay with you on all pages! Please resize to your liking.
           </Stylabel>
             <Note></Note>
     </Notes>

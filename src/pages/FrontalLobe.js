@@ -4,7 +4,7 @@ import { Subtainer } from '../styles/box';
 import styled from 'styled-components'
 import header from "../images/frontal-lobe.jpg"
 import { Container } from '../styles/center';
-import PlOther from '../components/parietal lobe/PlOther';
+import PlOther from '../components/frontal lobe/FlOther';
 import Note from '../components/Note';
 import FlText from '../components/frontal lobe/FlText';
 
@@ -29,10 +29,9 @@ const StyledImg = styled.img`
 const Frontal = () => {
   return (
     <Container1>
-
         <Notes>
           <Stylabel>
-            These notes stay with you on all pages!
+          These notes stay with you on all pages! Please resize to your liking.
           </Stylabel>
             <Note></Note>
         </Notes>

@@ -5,7 +5,7 @@ import styled from 'styled-components'
 
 const StyledTextarea = styled.textarea`
     border: none;
-    height: 100vw;
+    height: 100%;
     width: 100%;
     resize: vertical;  
     background-color: #A8E4A0; 

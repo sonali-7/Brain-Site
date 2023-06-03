@@ -3,6 +3,7 @@ import React from 'react'
 const PL_other = () => {
   return (
     <div>
+      <small>
       <h1>Other Resources & Citations</h1>
       <a href="https://www.youtube.com/watch?v=VW2VScHV7b4"> The Anatomy and Function of the Parietal Lobe, Interactive Biology </a>
       <br></br>
@@ -13,6 +14,7 @@ const PL_other = () => {
       <a href="https://www.frontiersin.org/articles/10.3389/fnint.2012.00038/full">Posterior parietal lobe, Frontiers</a>
       <br></br>
       <a href="https://jnnp.bmj.com/content/75/1/13">Hemispatial neglect, BMJ Journals</a>
+      </small>
     </div>
   )
 }

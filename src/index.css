@@ -37,3 +37,6 @@ textarea:focus {
   outline: none;
 }
 
+.homeLink {
+  padding-bottom: 5px;
+}

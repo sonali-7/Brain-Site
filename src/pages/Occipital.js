@@ -2,10 +2,10 @@ import React from 'react'
 import { Container1 } from '../styles/box'
 import { Subtainer } from '../styles/box';
 import styled from 'styled-components'
-import header from "../images/parietal_lobe.jpg"
+import header from "../images/occipital-lobe-structure.jpg"
 import { Container } from '../styles/center';
-import PlText from '../components/parietal lobe/PlText';
-import PlOther from '../components/parietal lobe/PlOther';
+import OlText from '../components/occipital lobe/OlText';
+import OlOther from '../components/occipital lobe/OlOther';
 import Note from '../components/Note';
 import StickyBox from 'react-sticky-box'
 
@@ -33,7 +33,7 @@ const Occipital = () => {
     <Container1>
     <Notes>
           <Stylabel>
-            These notes stay with you on all pages!
+          These notes stay with you on all pages! Please resize to your liking.
           </Stylabel>
             <Note></Note>
     </Notes>
@@ -44,8 +44,8 @@ const Occipital = () => {
       <Container>
        <StyledImg src={header} alt="Parietal lobe diagram" />
       </Container>
-        <PlText></PlText>
-        <PlOther></PlOther>
+        <OlText></OlText>
+        <OlOther></OlOther>
       </Subtainer>
       </div>
     </Container1>

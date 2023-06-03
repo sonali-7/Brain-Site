@@ -2,11 +2,11 @@ import React from 'react'
 import { Container1 } from '../styles/box'
 import { Subtainer } from '../styles/box';
 import styled from 'styled-components'
-import header from "../images/frontal-lobe.jpg"
+import header from "../images/temporal-lobe-structure.jpg"
 import { Container } from '../styles/center';
-import PlOther from '../components/parietal lobe/PlOther';
+import PlOther from '../components/temporal lobe/TlOther';
 import Note from '../components/Note';
-import FlText from '../components/frontal lobe/FlText';
+import FlText from '../components/temporal lobe/TlText';
 
 
 const Notes = styled.div`
@@ -33,7 +33,7 @@ const Temporal = () => {
 
         <Notes>
           <Stylabel>
-            These notes stay with you on all pages!
+          These notes stay with you on all pages! Please resize to your liking.
           </Stylabel>
             <Note></Note>
         </Notes>

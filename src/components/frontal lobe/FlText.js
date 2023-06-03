@@ -1,4 +1,12 @@
 import React from 'react'
+import lolol from '../../images/lolol.jpg'
+import styled from 'styled-components';
+import { Container } from '../../styles/center';
+
+const StyledImg = styled.img`
+    width: 300px;
+    height: 300px;
+`;
 
 const FlText = () => {
   return (
@@ -16,25 +24,35 @@ const FlText = () => {
 
          </p>
          
-         <h2>Motor Cortex</h2>
+         <h2>Premotor Cortex</h2>
          <p>
-         Neurons in the premotor cortex strongly influence behavior in the primary motor cortex. They seem to be highly involved in the selection of which movements one carries out. 
-The medial premotor cortex is similar in function. However, it more concerned with internal cues rather than external cues to move. 
-
+         The premotor cortex lies on Brodmann’s area 6. Neurons in the premotor cortex strongly influence behavior in the primary motor cortex. They seem to be highly involved in the selection of which movements one carries out. It responds to input well before the primary motor cortex and orients the body for movement.
+         </p>
+         <p>
+         The premotor cortex can be split into two: lateral cortex and medial cortex. The lateral cortex is great at interpreting external cues (sensory information, etc) while the medial cortex is more concerned with internal cues. 
          </p>
           
-             <h3>Somatomotor Cortex</h3>
-             <p>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-             <h3>Premotor Cortex</h3>
-             <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-             <h3>Supplementary Motor Area (SMA)</h3>
-             <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
-             <h3>Primary Somatosensory Cortex</h3>
-             <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
+         <h2>Primary Motor Cortex</h2>
+         <p>
+         As its name suggests, the primary motor cortex controls motion. The motor cortex is located in Brodmann’s area 4. The motor cortex controls motor behaviors by generating movement-specific signals and transmitting them through spinal cord circuits and motoneurons to the muscles. Precise and well-coordinated muscle activation patterns are necessary for accurate movement execution.
+         </p>
+         <p>
+         Like with the somatosensory cortex, here’s a map of which body parts map to which primary motor cortex regions: 
+         </p>
+        <Container>
+        <StyledImg src={lolol}></StyledImg>
+        </Container>
          <h2>Broca's Area</h2>
-         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>        
-
+         <small>
+         See also: <a href='/temporal'>Wernicke’s area</a>
+         </small>
+         <p>
+         Broca’s area is specialized for speech production. There is some debate about what exactly Broca’s area controls, but it is involved in the concatenation of strings to form speech. Broca’s area works closely with the Temporal Lobe (organizing sensory information) and the Motor cortex (determining how the mouth moves). 
+          </p>        
+          <h3>Clinical Relevance</h3>
+          <p>
+          Two conditions are often associated with issues in Broca’s area and the primary motor cortex. Aphasia and apraxia are both speech conditions that limit a person’s ability to converse. Aphasia is the loss of ability to understand speech, while apraxia makes it difficult to deliver correct muscle movement (resulting in difficulty while speaking).
+          </p>
      </div>
   )
 }
