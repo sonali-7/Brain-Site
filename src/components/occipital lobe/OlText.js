@@ -32,7 +32,7 @@ const OlText = () => {
         </p>
         <h2 class="header">Secondary Visual Cortex</h2>
         <p class="text">
-        This section is also known as Brodmann area 18 and 19. B2 has four components that work together to put together a map of the world. Like me when cells are focused on properties like orientation and color. V2 also determines more complex attributes of visual information such as whether stimuli is part of the main object or part of the background. 
+        This section is also known as Brodmann area 18 and 19. V2 has four components that work together to put together a map of the world. Like me when cells are focused on properties like orientation and color. V2 also determines more complex attributes of visual information such as whether stimuli is part of the main object or part of the background. 
         </p>
         <Container>
             <StyledImg src={v2} />
